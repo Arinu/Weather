@@ -1,0 +1,94 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-size: 18px;
+	font-family: 微软雅黑;
+}
+body{
+	/*background-color: #F0AEEA;*/
+}
+.weather{
+	margin-top: 88px;
+	position: relative;
+	/*display: table;*/
+}
+.head,.now{
+	padding: 20px;
+	display: table;
+	margin: 50px auto auto auto;
+	border: 1px solid #3B3B3B;
+	width: 760px;
+	text-align: left;
+}
+.he_left{
+	float: left;
+	width: 200px;
+}
+.he_left span{
+	font-size: 2em;
+}
+.he_conter{
+	border-left: 1px solid blue;
+	padding-left: 40px;
+	padding-right: 40px;
+	float: left;
+}
+.he_right{
+	border-left: 1px solid blue;
+	padding-left: 40px;
+	padding-right: 40px;
+	float: left;
+}
+.ther{
+	width: 300px;
+	border-right: 1px solid blue;
+	float: left;
+}
+.ther_top span{
+	font-size: 2.8em;
+	margin-left: 20px;
+}
+.ther_buttom{
+	margin-top: 5px;
+}
+.ther_buttom span{
+	margin-left:20px;
+}
+.air{
+	margin-left: 60px;
+	line-height: 2.5em;
+	float: left;
+}
+.air_a_pm{
+	padding-left: 20px;
+}
+.livelihood{
+	width: 780px;
+	padding: 0 10px;
+	margin: 40px auto;
+	text-align:center;
+	/*border: 1px solid #000;*/
+	/*position: relative;*/
+}
+.livelihood div{
+	width: 210px;
+	float: left;
+	height: 145px;
+	margin-left: 15px;
+	margin-bottom: 15px;
+	background-color: #C1E6F1;
+	padding: 15px;
+}
+.livelihood div .index{
+	font-size: 16px;
+}
+.livelihood b{
+	display: block;
+	color: #48737E;
+	font-size: 16px;
+	margin-top: 8px;
+}
+.livelihood span{
+	font-size: 14px;
+	color: #5D5D5D;
+}
