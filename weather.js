@@ -22,7 +22,7 @@ window.onload=function () {
 					comf.innerHTML = re.suggestion.comf.brf;
 					condition.innerHTML = re.now.cond.txt;
 					temperature.innerHTML = re.now.tmp+"℃";
-					wind.innerHTML = re.now.wind.dir+re.now.wind.spd+"级";
+					wind.innerHTML = re.now.wind.dir+re.now.wind.sc+"级";
 					disparity.innerHTML = re.daily_forecast["0"].tmp.min+"℃~"+re.daily_forecast["0"].tmp.max+"℃";
 					newtag('.he_r_sr','span',re.daily_forecast["0"].astro.sr);
 					newtag('.he_r_ss','span',re.daily_forecast["0"].astro.ss);
