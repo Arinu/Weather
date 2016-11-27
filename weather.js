@@ -12,7 +12,7 @@ window.onload=function () {
 	reipjson.onload=function () {
 		if (reipjson.readyState===4&&reipjson.status===200) {
 			ip=reipjson.response.ip;
-			city=reipjson.response.city;
+			city=reipjson.response.region;
 			var recity = get("GET","https://api.heweather.com/x3/weather?","key=f3a33f760a1f4074866c58a64c1e828b","&city=",city);
 			recity.onload=function () {
 				if(recity.readyState===4&&recity.status===200){
